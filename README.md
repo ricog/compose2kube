@@ -4,7 +4,7 @@ Convert docker-compose service files to Kubernetes objects.
 
 ## Status
 
-compose2kube is in functional beta stage and supports mapping container images, varables, ports, labels, volumes, and restart policies to Kubernetes [replication controllers](https://github.com/kubernetes/kubernetes/blob/release-1.0/docs/user-guide/replication-controller.md) and [services](https://github.com/kubernetes/kubernetes/blob/release-1.0/docs/user-guide/services.md).
+compose2kube is in functional beta stage and supports mapping container images, variables, ports, labels, volumes, and restart policies to Kubernetes [replication controllers](https://github.com/kubernetes/kubernetes/blob/release-1.0/docs/user-guide/replication-controller.md) and [services](https://github.com/kubernetes/kubernetes/blob/release-1.0/docs/user-guide/services.md).
 Thanks to the [docker/libcompose](https://github.com/docker/libcompose) library, compose2kube will support the complete docker-compose specification in the near future.
 
 *Rancher support:* (optionally) compose2kube also reads `rancher-compose.yml` in order to get the information about scale and healthchecks of the containers.
